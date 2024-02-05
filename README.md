@@ -31,19 +31,19 @@ The purpose of this repo to collect and share custom prompts for `Ghostreader` t
 
 ## Organization
 
-The custom prompts are organized into a single folder called 'prompts' with sub-folders organized based on their general purpose like 'summary', 'questions', and 'poems'. I hope these folders can expand and grow as individuals contribute to the project.
+The custom prompts are organized into a single folder called 'prompts' with sub-folders organized based on their general purpose like 'summary', 'questions', and 'poems'. I imagine these sub-folders will expand and change as individuals contribute more prompts to the project.
 
 ## Contributing
 
-Contrbutions are welcome!
+Contributuons are welcome!
 
-I'm still working on how best to organize the repository for ease of discoverability to search, so if you have suggestions please make a comment in the discussions section of this project.
+I'm still working on how best to organize the repository for ease of discoverability, so if you have suggestions please make a comment in the discussions section of this project.
 
-As of right now, please add your prompt into a text file (ext ".txt") and use this general format for references author/ source.
+As of right now, please add your prompt into a text file (ext ".txt") and follow these steps to contribute a custom prompt.
 
-**Example:**
+**Steps:**
 
-1. `name_the_file.txt`
+1. Name file with ".txt' extension and give it a descriptive title that is not already taken like `short-summary-documents.txt`
 
 2. ```text
     {#-
