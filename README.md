@@ -2,7 +2,7 @@
 
 This repo contains a collection of user-created custom prompts for Readwise Reader ChatGPT-reading assistant `Ghostreader`.
 
-## About `Ghostreader`
+## About using custom prompts in `Ghostreader`
 
 > **Directly from Readwise Reader:**
 >
