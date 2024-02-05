@@ -1,4 +1,7 @@
-{#- source: https://readwise.io/reader/shared/01gr4nfn83amwaxps2nd8gjf5n/ -#}
+{#- 
+author: Readwise
+source: https://readwise.io/reader/shared/01gr4nfn83amwaxps2nd8gjf5n/ 
+-#}
 
 {% set query = "INSERT A QUESTION HERE?" %}
 
