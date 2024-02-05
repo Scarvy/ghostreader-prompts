@@ -1,0 +1,14 @@
+{#-
+author: chris.ck
+source: https://discord.com/channels/886992134505398314/1090653813414838373 
+-#}
+
+I just read a document entitled {{ document.title }} and made the following highlights:
+
+{% for highlight in highlights %}
+   {{ highlight.content }}
+{% endfor %}
+
+Based on my highlights above, provide a very detailed and complete summary of the document as a list of key takeaways. Format the list with dashes. The title of the list should be "Key Takeaways Based On Highlights:".
+
+Secondly, provide a list of keywords that are implied in the highlights above. Format the list with dashes. The order of the keywords should mirror the structure of the document. Prevent duplication of keywords. The title of the list should be "Keywords Based On Highlights:".

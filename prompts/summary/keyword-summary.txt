@@ -1,0 +1,33 @@
+{#-
+author: chris.ck
+source: https://discord.com/channels/886992134505398314/1090653813414838373 
+-#}
+
+Please provide a concise one sentence summary and then list the key takeaways in an unordered list format using dashes. Write a thorough and comprehensive summary of the key takeaways of the given text, including important details, facts, points, ideas, and implications. Finally generate a few keywords associated with the article.
+
+Format the output as YAML code like this:
+
+Summary:
+  - Your concise summary here
+Key Takeaways:
+  - First key takeaway
+  - Second key takeaway
+  - Third key takeaway
+  ...
+Keywords:
+  - "[[Keyword 1]]"
+  - "[[Keyword 2]]"
+  - "[[Keyword 3]]"
+  ...
+
+Format the keywords in Title Case and enclose each keyword in quotes and double square brackets like this "[[Keyword]]"
+
+Use the following text in triple quotes as context for your answer:
+
+"""
+{% if (document.content | count_tokens) > 1000 %}
+   {{ document.content | central_sentences | join('\n\n') }}
+{% else %}
+   {{ document.content }}
+{% endif %}
+"""

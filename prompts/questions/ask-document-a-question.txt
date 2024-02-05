@@ -1,0 +1,11 @@
+{#- source: https://readwise.io/reader/shared/01gr4nfn83amwaxps2nd8gjf5n/ -#}
+
+{% set query = "INSERT A QUESTION HERE?" %}
+
+I examined the document for passages that might answer the question "{{ query }}" and gathered them below:
+
+"""
+{{ document.content | most_similar(query) | join("\n\n") }}
+"""
+
+Based on the sentences above, {{ query }}

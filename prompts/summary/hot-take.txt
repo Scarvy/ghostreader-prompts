@@ -1,0 +1,11 @@
+{#- source: https://readwise.io/reader/shared/01gr4nfn83amwaxps2nd8gjf5n/ -#}
+
+{% set hot_take = "INSERT HOT TAKE HERE" %}
+
+I just read an article entitled {{ document.title }} and made the following highlights:
+
+{% for highlight in highlights %}
+   {{ highlight.content }}
+{% endfor %}
+
+The main takeaway of the article in my opinion was {{ hot_take }}. Help me write a "hot take".

@@ -1,0 +1,14 @@
+{#-
+author: chris.ck
+source: https://discord.com/channels/886992134505398314/1090653813414838373 
+-#}
+
+I just read a document entitled {{ document.title }} and made the following highlights:
+
+{% for highlight in highlights %}
+   {{ highlight.content }}
+{% endfor %}
+
+Based on my highlights above, explain what the document discusses in one sentence at most. The title of your answer should be "About Based On Highlights:".
+
+Secondly, based on my highlights above, and without repeating parts of your earlier answer verbatim, provide a very detailed and complete summary of the document as a list of key takeaways. Format the list with dashes. The title of the list should be "Key Takeaways Based On Highlights:".

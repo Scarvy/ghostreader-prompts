@@ -1,0 +1,14 @@
+{#-
+author: chris.ck
+source: https://discord.com/channels/886992134505398314/1090653813414838373 
+-#}
+
+In one sentence at most, explain what the document below entitled "{{ document.title }}" discusses. The title of your answer should be "About:":
+
+"""
+{% if (document.content | count_tokens) > 1000 %}
+   {{ document.content | central_sentences | join('\n\n') }}
+{% else %}
+   {{ document.content }}
+{% endif %}
+"""

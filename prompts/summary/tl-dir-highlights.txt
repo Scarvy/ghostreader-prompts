@@ -1,0 +1,12 @@
+{#-
+author: chris.ck
+source: https://discord.com/channels/886992134505398314/1090653813414838373 
+-#}
+
+I just read a document entitled {{ document.title }} and made the following highlights:
+
+{% for highlight in highlights %}
+   {{ highlight.content }}
+{% endfor %}
+
+Based on my highlights above, make a TL;DR version of the document using as few words as possible. Format it as a list with dashes. The title of the list should be "TL;DR Based On Highlights:".
