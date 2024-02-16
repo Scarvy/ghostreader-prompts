@@ -52,7 +52,7 @@ As of right now, please paste your prompt into a text file (ext ".txt") and foll
 2. ```text
     {#-
     author: <author's name>
-    source: <url to source>
+    source: <url to source (if applicable)>
     -#}
 
     <prompt goes here>
