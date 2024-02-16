@@ -1,6 +1,12 @@
 # Ghostreader Prompts
 
-This repo contains a collection of user-created custom prompts for Readwise Reader ChatGPT-reading assistant `Ghostreader`.
+A collection of user-created prompts for [Reader's](https://readwise.io/read) "Copilot of Reading" feature - **Ghostreader**.
+
+![ghostreader-prompt](/images/ghostreader-prompt-screenshot.jpg)
+
+## Purpose
+
+To collect, share, and collaborate on prompts.
 
 ## About using custom prompts in `Ghostreader`
 
@@ -21,25 +27,23 @@ This repo contains a collection of user-created custom prompts for Readwise Read
 >
 > Write a haiku.
 
-More information on custom prompts can be found [here](https://readwise.io/reader/shared/01gr4nfn83amwaxps2nd8gjf5n/).
+For more information on custom prompts and the Ghostreader feature in general. Please refer to this newsletter [here](https://readwise.io/reader/shared/01ha2p6ej8fke512v151ngvx3n).
 
-## Purpose
+## Folder Structure
 
-The purpose of this repo to collect and share custom prompts for `Ghostreader` that anyone can copy and paste into their custom prompt option in the 'Ghostreader' drop-down menu. See below:
+The prompts are organized into a single folder called **"prompts"** with sub-folders organized based on their general purpose like **"summary"**, **"questions"**, and **"poems"**. I imagine these sub-folders will expand and change as individuals contribute more prompts to the project.
 
-![ghostreader-prompt](/images/ghostreader-prompt-screenshot.jpg)
+I'm still working on how best to organize the repository for ease of discoverability. If you have any suggestions please on how best to organize everything please make a comment in the **"Discussions"** section of this project or in the Reader Discord channel **"#ghostreader-gpt"**.
 
-## Organization
+## User-Guide
 
-The custom prompts are organized into a single folder called 'prompts' with sub-folders organized based on their general purpose like 'summary', 'questions', and 'poems'. I imagine these sub-folders will expand and change as individuals contribute more prompts to the project.
+Under the "Wiki" tab, there is a user-guide with descriptions of parameters to help craft prompts.
 
 ## Contributing
 
 Contributuons are welcome!
 
-I'm still working on how best to organize the repository for ease of discoverability, so if you have suggestions please make a comment in the discussions section of this project.
-
-As of right now, please add your prompt into a text file (ext ".txt") and follow these steps to contribute a custom prompt.
+As of right now, please paste your prompt into a text file (ext ".txt") and follow these steps to contribute a custom prompt.
 
 **Steps:**
 
