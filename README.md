@@ -41,7 +41,7 @@ Under the "Wiki" tab, there is a user-guide with descriptions of parameters to h
 
 ## Contributing
 
-Contributuons are welcome!
+Contributions are welcome!
 
 As of right now, please paste your prompt into a text file (ext ".txt") and follow these steps to contribute a custom prompt.
 
