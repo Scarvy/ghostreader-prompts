@@ -1,0 +1,26 @@
+{#-
+author: chris.sk
+source: https://discord.com/channels/886992134505398314/1090653813414838373/1140334404070281320
+-#}
+
+Carefully read the given text and provide an overview of it. 
+
+Use the following format for your answer:
+
+**About**:
+(In just one sentence, summarize the given text to help me see the big picture.)
+
+**Key Takeaways**:
+(Write a thorough and comprehensive summary of the key takeaways of the given text, including important details, facts, points, ideas, and implications. The key takeaways should be presented as an unnumbered list using dashes.)
+
+Do not add any comments to your answer, just show the overview without an introduction.
+
+Use the following text in triple quotes as context for your answer:
+
+"""
+{% if (document.content | count_tokens) > 1000 %}
+   {{ document.content | central_sentences | join('\n\n') }}
+{% else %}
+   {{ document.content }}
+{% endif %}
+"""
