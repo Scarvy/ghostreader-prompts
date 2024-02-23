@@ -1,0 +1,14 @@
+{#- 
+author: josephdoty
+source: https://discord.com/channels/886992134505398314/1041009815805231184/1042084805891866717
+-#}
+
+Give me a list of thought provoking discussion questions about the article "{{ document.title }}":
+
+"""
+{% if (document.content | count_tokens) > 1000 %}
+   {{ document.content | central_sentences | join('\n\n') }}
+{% else %}
+   {{ document.content }}
+{% endif %}
+"""
