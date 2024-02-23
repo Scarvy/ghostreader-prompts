@@ -1,6 +1,6 @@
 {#-
-author: chris.ck
-source: https://discord.com/channels/886992134505398314/1090653813414838373 
+author: everything-etc
+source: https://discord.com/channels/886992134505398314/1041009815805231184/1144131265197527090
 -#}
 
 Please provide a concise one sentence summary and then list the key takeaways in an unordered list format using dashes. Write a thorough and comprehensive summary of the key takeaways of the given text, including important details, facts, points, ideas, and implications. Finally generate a few keywords associated with the article.
