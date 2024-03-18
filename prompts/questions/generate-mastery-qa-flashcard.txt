@@ -1,0 +1,16 @@
+{#
+author: Scarvy
+source: https://www.reddit.com/r/readwise/comments/1bi0let/comment/kvhtxvp/?utm_source=share&utm_medium=web2x&context=3
+#}
+
+Below is text from {{ document.title }}:
+
+"""
+{% if (selection | count_tokens) > 1000 %}
+{{ selection | central_sentences | join("\n\n") }}
+{% else %}
+{{ selection }}
+{% endif %}
+"""
+
+Write a question-and-answer pair based on the selected text. The output should always start with '.qa’ and the question should always end with a question mark ‘?’. The answer should be at the end and always end with a period ‘.’
